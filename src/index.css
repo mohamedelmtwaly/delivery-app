@@ -1,0 +1,97 @@
+
+
+:root {
+    --mainColor: #df2020;
+    --fontColor2: #212245;
+    --backgroundColor :#fcfcfc;
+    --borderColor: #fde4e4;
+}
+.body-theme-light-mode {
+  --mainColor: #df2020;
+  --fontColor2: #fcfcfc;
+  --backgroundColor :#212245;
+  --borderColor: #fde4e4;
+  /* --fontColor: #21262f;
+  --backgroundColor: #eae3dc;
+  --backgroundgradient: #eae3dc; */
+}
+/* google fonts */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--mainColor);
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+
+/* reset default style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* base style */
+
+body {
+  background: var(--backgroundColor);
+  font-family: "Istok Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "RocknRoll One", sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1,
+h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--fontColor2);
+}
+
+section {
+  padding: 60px 0px;
+}
+.link__sigin {
+  transition: 0.2s;
+}
+.link__sigin:hover {
+  color: var(--mainColor);
+}
+.loader {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background-color: var(--backgroundColor);
+  /* transition: all 300ms; */
+  height: 100%;
+  z-index: 999;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0px;
+  }
+  h1,
+  h2 {
+    font-size: 1.5rem;
+  }
+}

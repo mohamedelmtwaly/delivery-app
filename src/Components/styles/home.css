@@ -1,0 +1,129 @@
+.feature__subtitle {
+  color:var(--mainColor);
+}
+.feature__title span {
+  color: var(--mainColor);
+}
+.feature__text,
+.feature__item p {
+  color: #777;
+}
+.food__category {
+  background:var(--mainColor);
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+.food__category button {
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+}
+.food__category button img {
+  width: 20px;
+  height: 20px;
+}
+.foodBtnActive {
+  background: #fff !important;
+  color:var(--mainColor) !important;
+  border-radius: 5px;
+}
+.tasty__treat-title span {
+  color:var(--mainColor);
+}
+.why__tasty-desc {
+  color: #777;
+  line-height: 28px;
+}
+.choose__us-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.choose__us-title i {
+  font-weight: 500 !important;
+  color: var(--mainColor);
+}
+
+.choose__us-desc {
+  color: #777;
+}
+.testimonial__subtitle {
+  color:var(--mainColor);
+}
+.testimonial__title span {
+  color: var(--mainColor);
+}
+.testimonial__desc {
+  color: #777;
+  line-height: 28px;
+}
+@media only screen and (max-width: 768px) {
+  .hore__content h5 {
+    font-size: 1rem;
+  }
+  .hero__title {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  .hore__content p {
+    font-size: 0.9rem;
+    line-height: 25px;
+  }
+  .hero__btns button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+  .hero__service p {
+    font-size: 0.7rem !important;
+  }
+  .feature__item h5 {
+    font-size: 0.9rem;
+  }
+  .feature__item p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+  .feature__subtitle {
+    font-size: 1rem;
+  }
+  .feature__text {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .food__category {
+    padding: 15px;
+  }
+  .food__category button {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+  }
+  .why__tasty-desc {
+    margin-bottom: 0;
+  }
+  .why__tasty-desc,
+  .choose__us-title,
+  .testimonial__desc {
+    font-size: 0.8rem;
+  }
+  .choose__us-desc {
+    font-size: 0.7rem;
+  }
+  .testimonial__subtitle {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hore__content {
+    text-align: center;
+  }
+
+  .hero__btns {
+    justify-content: center;
+  }
+  .why__choosse-u {
+    padding-top: 0 !important;
+  }
+}
